@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage{tocloft}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfig}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{tabularx}
+\usepackage{matlab-prettifier}
+\usepackage{comment}
+
+\geometry{
+    a4paper,
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+}
+
+\lstset{
+    %inputencoding=utf8x,
+    %extendedchars=\true,
+    literate={ą}{{\k{a}}}1
+             {Ą}{{\k{A}}}1
+             {ę}{{\k{e}}}1
+             {Ę}{{\k{E}}}1
+             {ó}{{\'o}}1
+             {Ó}{{\'O}}1
+             {ś}{{\'s}}1
+             {Ś}{{\'S}}1
+             {ł}{{\l{}}}1
+             {Ł}{{\L{}}}1
+             {ż}{{\.z}}1
+             {Ż}{{\.Z}}1
+             {ź}{{\'z}}1
+             {Ź}{{\'Z}}1
+             {ć}{{\'c}}1
+             {Ć}{{\'C}}1
+             {ń}{{\'n}}1
+             {Ń}{{\'N}}1
+}
+
+\begin{document}
+
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    \begin{figure}
+        \centering 
+        \includegraphics[width=0.5\textwidth]{logo.png}
+    \end{figure}
+    \Huge
+    Projekt
+    \par
+    \textbf{Przemysłowe Bazy Danych}
+    
+    \vspace*{1cm}
+
+    \vspace{0.5cm}
+    \LARGE \textit{Aplikacja Python umożliwiająca pobieranie danych z bazy oraz wstawianie nowych danych do bazy (SQL Server)}
+    
+    \vspace{1.5cm}
+    
+    \textbf{Autorzy:} 
+    Bartosz Wuwer,
+    Jakub Gutt
+    \vspace*{1.5cm}
+    \par AiR IV Grupa 5TI
+    
+    \vfill
+    
+\end{titlepage}
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+\end{document}
