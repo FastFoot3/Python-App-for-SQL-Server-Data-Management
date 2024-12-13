@@ -1,0 +1,6 @@
+matplotlib
+requests
+mysql-connector-python
+coloredlogs
+logging
+tkinter
